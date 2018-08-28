@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "FloatHeader.h"
+#import "FloatViewController.h"
 
 @interface ViewController ()
 
@@ -17,8 +19,18 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    self.view.backgroundColor=[UIColor whiteColor];
+    
+    UIButton *btn=[CustomTools buttonWithTitle:@"tableView悬停" font:14 titleColor:[UIColor blueColor] Selector:@selector(skipClick) Target:self];
+    btn.frame=CGRectMake(0, 100, SCREEN_WIDTH, 50);
+    btn.backgroundColor=[UIColor colorWithHexString:@"dddddd"];
+    [self.view addSubview:btn];
 }
 
+
+- (void)skipClick{
+    [self.navigationController pushViewController:[FloatViewController new] animated:YES];
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

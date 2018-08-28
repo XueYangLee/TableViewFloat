@@ -8,6 +8,27 @@
 
 #import <UIKit/UIKit.h>
 
+@protocol FloatContainerCellDelegate <NSObject>
+
+@optional
+- (void)containerScrollViewDidScroll:(UIScrollView *)scrollView;
+
+- (void)containerScrollViewDidEndDecelerating:(UIScrollView *)scrollView;
+
+@end
+
+
+
 @interface FloatContainerCell : UITableViewCell
+
+@property (nonatomic,strong) UIViewController *VC;
+- (void)configScrollView;
+
+@property (nonatomic, strong, readonly) UIScrollView *scrollView;
+
+@property (nonatomic, assign) BOOL objectCanScroll;
+@property (nonatomic, assign) BOOL isSelectIndex;
+
+@property (nonatomic,weak) id<FloatContainerCellDelegate>delegate;
 
 @end

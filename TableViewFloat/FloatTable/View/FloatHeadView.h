@@ -10,4 +10,6 @@
 
 @interface FloatHeadView : UIView
 
+@property (nonatomic,copy) void(^goGathering)();
+
 @end

@@ -10,4 +10,7 @@
 
 @interface FirstTableViewController : UITableViewController
 
+@property (nonatomic, assign) BOOL vcCanScroll;
+@property (nonatomic,strong) UIViewController *VC;
+
 @end

@@ -7,6 +7,9 @@
 //
 
 #import "FirstTableViewController.h"
+#import "FloatRankCell.h"
+#import "NewSkipViewController.h"
+
 
 @interface FirstTableViewController ()
 
@@ -17,11 +20,22 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    // Uncomment the following line to preserve selection between presentations.
-    // self.clearsSelectionOnViewWillAppear = NO;
     
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    self.tableView.showsVerticalScrollIndicator = NO;
+    self.tableView.separatorStyle=UITableViewCellSeparatorStyleNone;
+}
+
+- (void)scrollViewDidScroll:(UIScrollView *)scrollView {
+    
+    if (!self.vcCanScroll) {
+        scrollView.contentOffset = CGPointZero;
+    }
+    if (scrollView.contentOffset.y <= 0) {
+        self.vcCanScroll = NO;
+        scrollView.contentOffset = CGPointZero;
+        //到顶通知父视图改变状态
+        [[NSNotificationCenter defaultCenter] postNotificationName:@"leaveTop" object:nil];
+    }
 }
 
 - (void)didReceiveMemoryWarning {
@@ -29,27 +43,28 @@
     // Dispose of any resources that can be recreated.
 }
 
-#pragma mark - Table view data source
-
-- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-#warning Incomplete implementation, return the number of sections
-    return 0;
-}
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-#warning Incomplete implementation, return the number of rows
-    return 0;
+    return 20;
 }
 
-/*
+
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:<#@"reuseIdentifier"#> forIndexPath:indexPath];
-    
-    // Configure the cell...
-    
+    FloatRankCell *cell = [tableView dequeueReusableCellWithIdentifier:@"rank"];
+    if (cell==nil) {
+        cell=[[[NSBundle mainBundle]loadNibNamed:@"FloatRankCell" owner:self options:nil]lastObject];
+    }
     return cell;
 }
-*/
+
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
+    return 49;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    [_VC.navigationController pushViewController:[NewSkipViewController new] animated:YES];
+}
 
 /*
 // Override to support conditional editing of the table view.

@@ -15,6 +15,33 @@
 		F12CC9F32134FAF50058888F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F12CC9F22134FAF50058888F /* main.m */; };
 		F12CC9FD2134FAF50058888F /* TableViewFloatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F12CC9FC2134FAF50058888F /* TableViewFloatTests.m */; };
 		F12CCA082134FAF50058888F /* TableViewFloatUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F12CCA072134FAF50058888F /* TableViewFloatUITests.m */; };
+		F12CCA1C2134FB340058888F /* FDSlideBar.m in Sources */ = {isa = PBXBuildFile; fileRef = F12CCA162134FB340058888F /* FDSlideBar.m */; };
+		F12CCA1D2134FB340058888F /* FDSlideContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = F12CCA172134FB340058888F /* FDSlideContentView.m */; };
+		F12CCA1E2134FB340058888F /* FDSlideBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F12CCA182134FB340058888F /* FDSlideBarItem.m */; };
+		F12CCA222134FBBA0058888F /* GestureTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = F12CCA202134FBBA0058888F /* GestureTableView.m */; };
+		F12CCA292134FC4A0058888F /* UIColor+ColorHexadecimal.m in Sources */ = {isa = PBXBuildFile; fileRef = F12CCA272134FC4A0058888F /* UIColor+ColorHexadecimal.m */; };
+		F12CCA35213501040058888F /* CustomTools.m in Sources */ = {isa = PBXBuildFile; fileRef = F12CCA34213501040058888F /* CustomTools.m */; };
+		F12CCA3B21351DDF0058888F /* FloatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F12CCA3A21351DDF0058888F /* FloatViewController.m */; };
+		F12CCA3E21351E310058888F /* FloatHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = F12CCA3D21351E310058888F /* FloatHeadView.m */; };
+		F12CCA4221351E570058888F /* FloatTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F12CCA4021351E570058888F /* FloatTableCell.m */; };
+		F12CCA4321351E570058888F /* FloatTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F12CCA4121351E570058888F /* FloatTableCell.xib */; };
+		F12CCA4621351E670058888F /* FloatContainerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F12CCA4521351E670058888F /* FloatContainerCell.m */; };
+		F12CCA4921351E9B0058888F /* FirstTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F12CCA4821351E9B0058888F /* FirstTableViewController.m */; };
+		F12CCA4C21351EAB0058888F /* SecondTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F12CCA4B21351EAB0058888F /* SecondTableViewController.m */; };
+		F12CCA6721351F000058888F /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F12CCA4F21351F000058888F /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		F12CCA6821351F000058888F /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F12CCA5821351F000058888F /* ViewController+MASAdditions.m */; };
+		F12CCA6921351F000058888F /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = F12CCA5C21351F000058888F /* MASCompositeConstraint.m */; };
+		F12CCA6A21351F000058888F /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = F12CCA5D21351F000058888F /* MASConstraintMaker.m */; };
+		F12CCA6B21351F000058888F /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = F12CCA5E21351F000058888F /* MASLayoutConstraint.m */; };
+		F12CCA6C21351F000058888F /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F12CCA5F21351F000058888F /* NSArray+MASAdditions.m */; };
+		F12CCA6D21351F000058888F /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F12CCA6021351F000058888F /* View+MASAdditions.m */; };
+		F12CCA6E21351F000058888F /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = F12CCA6321351F000058888F /* MASConstraint.m */; };
+		F12CCA6F21351F000058888F /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = F12CCA6521351F000058888F /* MASViewConstraint.m */; };
+		F12CCA7021351F000058888F /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = F12CCA6621351F000058888F /* MASViewAttribute.m */; };
+		F12CCA7321351FD70058888F /* UIView+IBExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = F12CCA7221351FD60058888F /* UIView+IBExtension.m */; };
+		F12CCA822135226F0058888F /* FloatRankCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F12CCA802135226F0058888F /* FloatRankCell.m */; };
+		F12CCA832135226F0058888F /* FloatRankCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F12CCA812135226F0058888F /* FloatRankCell.xib */; };
+		F12CCA862135265A0058888F /* NewSkipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F12CCA852135265A0058888F /* NewSkipViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +78,64 @@
 		F12CCA032134FAF50058888F /* TableViewFloatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewFloatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F12CCA072134FAF50058888F /* TableViewFloatUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewFloatUITests.m; sourceTree = "<group>"; };
 		F12CCA092134FAF50058888F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F12CCA162134FB340058888F /* FDSlideBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDSlideBar.m; sourceTree = "<group>"; };
+		F12CCA172134FB340058888F /* FDSlideContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDSlideContentView.m; sourceTree = "<group>"; };
+		F12CCA182134FB340058888F /* FDSlideBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDSlideBarItem.m; sourceTree = "<group>"; };
+		F12CCA192134FB340058888F /* FDSlideContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDSlideContentView.h; sourceTree = "<group>"; };
+		F12CCA1A2134FB340058888F /* FDSlideBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDSlideBar.h; sourceTree = "<group>"; };
+		F12CCA1B2134FB340058888F /* FDSlideBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDSlideBarItem.h; sourceTree = "<group>"; };
+		F12CCA202134FBBA0058888F /* GestureTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GestureTableView.m; sourceTree = "<group>"; };
+		F12CCA212134FBBA0058888F /* GestureTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GestureTableView.h; sourceTree = "<group>"; };
+		F12CCA232134FBCD0058888F /* FloatHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FloatHeader.h; sourceTree = "<group>"; };
+		F12CCA272134FC4A0058888F /* UIColor+ColorHexadecimal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ColorHexadecimal.m"; sourceTree = "<group>"; };
+		F12CCA282134FC4A0058888F /* UIColor+ColorHexadecimal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+ColorHexadecimal.h"; sourceTree = "<group>"; };
+		F12CCA33213501040058888F /* CustomTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTools.h; sourceTree = "<group>"; };
+		F12CCA34213501040058888F /* CustomTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTools.m; sourceTree = "<group>"; };
+		F12CCA3921351DDF0058888F /* FloatViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FloatViewController.h; sourceTree = "<group>"; };
+		F12CCA3A21351DDF0058888F /* FloatViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FloatViewController.m; sourceTree = "<group>"; };
+		F12CCA3C21351E310058888F /* FloatHeadView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FloatHeadView.h; sourceTree = "<group>"; };
+		F12CCA3D21351E310058888F /* FloatHeadView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FloatHeadView.m; sourceTree = "<group>"; };
+		F12CCA3F21351E570058888F /* FloatTableCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FloatTableCell.h; sourceTree = "<group>"; };
+		F12CCA4021351E570058888F /* FloatTableCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FloatTableCell.m; sourceTree = "<group>"; };
+		F12CCA4121351E570058888F /* FloatTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FloatTableCell.xib; sourceTree = "<group>"; };
+		F12CCA4421351E670058888F /* FloatContainerCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FloatContainerCell.h; sourceTree = "<group>"; };
+		F12CCA4521351E670058888F /* FloatContainerCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FloatContainerCell.m; sourceTree = "<group>"; };
+		F12CCA4721351E9B0058888F /* FirstTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstTableViewController.h; sourceTree = "<group>"; };
+		F12CCA4821351E9B0058888F /* FirstTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstTableViewController.m; sourceTree = "<group>"; };
+		F12CCA4A21351EAB0058888F /* SecondTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondTableViewController.h; sourceTree = "<group>"; };
+		F12CCA4B21351EAB0058888F /* SecondTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondTableViewController.m; sourceTree = "<group>"; };
+		F12CCA4E21351F000058888F /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		F12CCA4F21351F000058888F /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		F12CCA5021351F000058888F /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		F12CCA5121351F000058888F /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		F12CCA5221351F000058888F /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		F12CCA5321351F000058888F /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		F12CCA5421351F000058888F /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		F12CCA5521351F000058888F /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		F12CCA5621351F000058888F /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		F12CCA5721351F000058888F /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		F12CCA5821351F000058888F /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		F12CCA5921351F000058888F /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		F12CCA5A21351F000058888F /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		F12CCA5B21351F000058888F /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		F12CCA5C21351F000058888F /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		F12CCA5D21351F000058888F /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		F12CCA5E21351F000058888F /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		F12CCA5F21351F000058888F /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		F12CCA6021351F000058888F /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		F12CCA6121351F000058888F /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		F12CCA6221351F000058888F /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		F12CCA6321351F000058888F /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		F12CCA6421351F000058888F /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		F12CCA6521351F000058888F /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		F12CCA6621351F000058888F /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		F12CCA7121351FD60058888F /* UIView+IBExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+IBExtension.h"; sourceTree = "<group>"; };
+		F12CCA7221351FD60058888F /* UIView+IBExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+IBExtension.m"; sourceTree = "<group>"; };
+		F12CCA7F2135226F0058888F /* FloatRankCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FloatRankCell.h; sourceTree = "<group>"; };
+		F12CCA802135226F0058888F /* FloatRankCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FloatRankCell.m; sourceTree = "<group>"; };
+		F12CCA812135226F0058888F /* FloatRankCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FloatRankCell.xib; sourceTree = "<group>"; };
+		F12CCA842135265A0058888F /* NewSkipViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewSkipViewController.h; sourceTree = "<group>"; };
+		F12CCA852135265A0058888F /* NewSkipViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewSkipViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +186,10 @@
 		F12CC9E22134FAF30058888F /* TableViewFloat */ = {
 			isa = PBXGroup;
 			children = (
+				F12CCA3621351D980058888F /* FloatTable */,
+				F12CCA1F2134FB990058888F /* ToolClass */,
+				F12CCA152134FB340058888F /* SliderBar */,
+				F12CCA4D21351F000058888F /* Masonry */,
 				F12CC9E32134FAF30058888F /* AppDelegate.h */,
 				F12CC9E42134FAF30058888F /* AppDelegate.m */,
 				F12CC9E62134FAF30058888F /* ViewController.h */,
@@ -130,6 +219,108 @@
 				F12CCA092134FAF50058888F /* Info.plist */,
 			);
 			path = TableViewFloatUITests;
+			sourceTree = "<group>";
+		};
+		F12CCA152134FB340058888F /* SliderBar */ = {
+			isa = PBXGroup;
+			children = (
+				F12CCA162134FB340058888F /* FDSlideBar.m */,
+				F12CCA172134FB340058888F /* FDSlideContentView.m */,
+				F12CCA182134FB340058888F /* FDSlideBarItem.m */,
+				F12CCA192134FB340058888F /* FDSlideContentView.h */,
+				F12CCA1A2134FB340058888F /* FDSlideBar.h */,
+				F12CCA1B2134FB340058888F /* FDSlideBarItem.h */,
+			);
+			path = SliderBar;
+			sourceTree = "<group>";
+		};
+		F12CCA1F2134FB990058888F /* ToolClass */ = {
+			isa = PBXGroup;
+			children = (
+				F12CCA212134FBBA0058888F /* GestureTableView.h */,
+				F12CCA202134FBBA0058888F /* GestureTableView.m */,
+				F12CCA232134FBCD0058888F /* FloatHeader.h */,
+				F12CCA282134FC4A0058888F /* UIColor+ColorHexadecimal.h */,
+				F12CCA272134FC4A0058888F /* UIColor+ColorHexadecimal.m */,
+				F12CCA7121351FD60058888F /* UIView+IBExtension.h */,
+				F12CCA7221351FD60058888F /* UIView+IBExtension.m */,
+				F12CCA33213501040058888F /* CustomTools.h */,
+				F12CCA34213501040058888F /* CustomTools.m */,
+			);
+			path = ToolClass;
+			sourceTree = "<group>";
+		};
+		F12CCA3621351D980058888F /* FloatTable */ = {
+			isa = PBXGroup;
+			children = (
+				F12CCA3821351DB20058888F /* Controller */,
+				F12CCA3721351DAA0058888F /* View */,
+				F12CCA3921351DDF0058888F /* FloatViewController.h */,
+				F12CCA3A21351DDF0058888F /* FloatViewController.m */,
+			);
+			path = FloatTable;
+			sourceTree = "<group>";
+		};
+		F12CCA3721351DAA0058888F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F12CCA3C21351E310058888F /* FloatHeadView.h */,
+				F12CCA3D21351E310058888F /* FloatHeadView.m */,
+				F12CCA3F21351E570058888F /* FloatTableCell.h */,
+				F12CCA4021351E570058888F /* FloatTableCell.m */,
+				F12CCA4121351E570058888F /* FloatTableCell.xib */,
+				F12CCA7F2135226F0058888F /* FloatRankCell.h */,
+				F12CCA802135226F0058888F /* FloatRankCell.m */,
+				F12CCA812135226F0058888F /* FloatRankCell.xib */,
+				F12CCA4421351E670058888F /* FloatContainerCell.h */,
+				F12CCA4521351E670058888F /* FloatContainerCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F12CCA3821351DB20058888F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F12CCA4721351E9B0058888F /* FirstTableViewController.h */,
+				F12CCA4821351E9B0058888F /* FirstTableViewController.m */,
+				F12CCA4A21351EAB0058888F /* SecondTableViewController.h */,
+				F12CCA4B21351EAB0058888F /* SecondTableViewController.m */,
+				F12CCA842135265A0058888F /* NewSkipViewController.h */,
+				F12CCA852135265A0058888F /* NewSkipViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F12CCA4D21351F000058888F /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				F12CCA4E21351F000058888F /* MASCompositeConstraint.h */,
+				F12CCA4F21351F000058888F /* NSLayoutConstraint+MASDebugAdditions.m */,
+				F12CCA5021351F000058888F /* MASConstraint+Private.h */,
+				F12CCA5121351F000058888F /* MASLayoutConstraint.h */,
+				F12CCA5221351F000058888F /* NSArray+MASShorthandAdditions.h */,
+				F12CCA5321351F000058888F /* MASConstraintMaker.h */,
+				F12CCA5421351F000058888F /* View+MASAdditions.h */,
+				F12CCA5521351F000058888F /* NSArray+MASAdditions.h */,
+				F12CCA5621351F000058888F /* MASUtilities.h */,
+				F12CCA5721351F000058888F /* MASViewAttribute.h */,
+				F12CCA5821351F000058888F /* ViewController+MASAdditions.m */,
+				F12CCA5921351F000058888F /* MASViewConstraint.h */,
+				F12CCA5A21351F000058888F /* MASConstraint.h */,
+				F12CCA5B21351F000058888F /* NSLayoutConstraint+MASDebugAdditions.h */,
+				F12CCA5C21351F000058888F /* MASCompositeConstraint.m */,
+				F12CCA5D21351F000058888F /* MASConstraintMaker.m */,
+				F12CCA5E21351F000058888F /* MASLayoutConstraint.m */,
+				F12CCA5F21351F000058888F /* NSArray+MASAdditions.m */,
+				F12CCA6021351F000058888F /* View+MASAdditions.m */,
+				F12CCA6121351F000058888F /* View+MASShorthandAdditions.h */,
+				F12CCA6221351F000058888F /* Masonry.h */,
+				F12CCA6321351F000058888F /* MASConstraint.m */,
+				F12CCA6421351F000058888F /* ViewController+MASAdditions.h */,
+				F12CCA6521351F000058888F /* MASViewConstraint.m */,
+				F12CCA6621351F000058888F /* MASViewAttribute.m */,
+			);
+			path = Masonry;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,7 +427,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F12CC9F02134FAF50058888F /* LaunchScreen.storyboard in Resources */,
+				F12CCA4321351E570058888F /* FloatTableCell.xib in Resources */,
 				F12CC9ED2134FAF50058888F /* Assets.xcassets in Resources */,
+				F12CCA832135226F0058888F /* FloatRankCell.xib in Resources */,
 				F12CC9EB2134FAF30058888F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,9 +455,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F12CCA4921351E9B0058888F /* FirstTableViewController.m in Sources */,
+				F12CCA1E2134FB340058888F /* FDSlideBarItem.m in Sources */,
+				F12CCA292134FC4A0058888F /* UIColor+ColorHexadecimal.m in Sources */,
+				F12CCA35213501040058888F /* CustomTools.m in Sources */,
+				F12CCA6921351F000058888F /* MASCompositeConstraint.m in Sources */,
+				F12CCA3B21351DDF0058888F /* FloatViewController.m in Sources */,
+				F12CCA6E21351F000058888F /* MASConstraint.m in Sources */,
+				F12CCA6D21351F000058888F /* View+MASAdditions.m in Sources */,
+				F12CCA4621351E670058888F /* FloatContainerCell.m in Sources */,
+				F12CCA7321351FD70058888F /* UIView+IBExtension.m in Sources */,
+				F12CCA862135265A0058888F /* NewSkipViewController.m in Sources */,
 				F12CC9E82134FAF30058888F /* ViewController.m in Sources */,
+				F12CCA7021351F000058888F /* MASViewAttribute.m in Sources */,
+				F12CCA6721351F000058888F /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 				F12CC9F32134FAF50058888F /* main.m in Sources */,
 				F12CC9E52134FAF30058888F /* AppDelegate.m in Sources */,
+				F12CCA1D2134FB340058888F /* FDSlideContentView.m in Sources */,
+				F12CCA6B21351F000058888F /* MASLayoutConstraint.m in Sources */,
+				F12CCA6F21351F000058888F /* MASViewConstraint.m in Sources */,
+				F12CCA1C2134FB340058888F /* FDSlideBar.m in Sources */,
+				F12CCA822135226F0058888F /* FloatRankCell.m in Sources */,
+				F12CCA6C21351F000058888F /* NSArray+MASAdditions.m in Sources */,
+				F12CCA4221351E570058888F /* FloatTableCell.m in Sources */,
+				F12CCA6A21351F000058888F /* MASConstraintMaker.m in Sources */,
+				F12CCA222134FBBA0058888F /* GestureTableView.m in Sources */,
+				F12CCA3E21351E310058888F /* FloatHeadView.m in Sources */,
+				F12CCA6821351F000058888F /* ViewController+MASAdditions.m in Sources */,
+				F12CCA4C21351EAB0058888F /* SecondTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
