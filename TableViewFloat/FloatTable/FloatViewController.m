@@ -140,10 +140,7 @@
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
     if (indexPath.section==0) {
-        if (indexPath.row==0) {
-            return 138.5;
-        }
-        return 149;
+        return 138;
     }
     return SCREEN_WINDOW_HEIGHT-sliderHeight;
 }
@@ -153,6 +150,13 @@
         return 0.01f;
     }
     return sliderHeight;
+}
+
+- (CGFloat)tableView:(UITableView *)tableView heightForFooterInSection:(NSInteger)section{
+    if (section==0) {
+        return 10;
+    }
+    return 0;
 }
 
 - (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section{
